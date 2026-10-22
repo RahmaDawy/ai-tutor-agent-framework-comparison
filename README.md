@@ -323,7 +323,7 @@ submission. Never commit a real `.env` file or API key.
 ### 1. Clone the repository
 
 ``` powershell
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ai-tutor-agent-framework-comparison.git
+git clone https://github.com/RahmaDawy/ai-tutor-agent-framework-comparison.git
 cd ai-tutor-agent-framework-comparison
 ```
 

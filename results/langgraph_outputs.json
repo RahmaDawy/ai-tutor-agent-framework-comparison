@@ -1,0 +1,38 @@
+{
+  "T1_normal": {
+    "status": "answered",
+    "message": "Overfitting occurs when a machine learning model learns the training data too well, including its random noise and specific quirks, rather than the underlying patterns. It becomes like a student who memorizes the exact answers to a practice exam instead of understanding the actual concepts. While the student gets a perfect score on the practice test, they fail the real exam because they can't apply the logic to new questions. In AI, an overfitted model performs exceptionally on its training data but fails to make accurate predictions on new, unseen data because it is too specialized to its original examples.",
+    "quiz": [
+      "If a model has very low error on training data but very high error on test data, is it likely overfitting?",
+      "Does overfitting mean the model has learned the general underlying patterns or the specific noise in the data?"
+    ]
+  },
+  "T2_normal": {
+    "status": "answered",
+    "message": "Binary search finds a target value in a sorted list by repeatedly dividing the search space in half. Imagine looking for a word in a dictionary: you open to the middle page, see if your word comes before or after, then discard half the pages and repeat. In code, you track low and high indices, compute the middle index, compare the middle element to the target, and adjust low or high accordingly until you find the target or the range is empty. This runs in O(log n) time, making it much faster than checking every element.",
+    "quiz": [
+      "If the middle element is greater than the target, which half of the list should you search next?",
+      "What is the time complexity of binary search?"
+    ]
+  },
+  "T3_ambiguous": {
+    "status": "error",
+    "message": "Teaching failed: Model did not return valid JSON: No JSON object found in model output",
+    "quiz": []
+  },
+  "T4_empty": {
+    "status": "rejected",
+    "message": "Your question is empty. Please provide a question about a computer science or AI topic.",
+    "quiz": []
+  },
+  "T5_out_of_scope": {
+    "status": "rejected",
+    "message": "I can only help with computer science and AI topics. Please ask a question about one of those.",
+    "quiz": []
+  },
+  "T6_injection": {
+    "status": "error",
+    "message": "Teaching failed: Model did not return valid JSON: No JSON object found in model output",
+    "quiz": []
+  }
+}

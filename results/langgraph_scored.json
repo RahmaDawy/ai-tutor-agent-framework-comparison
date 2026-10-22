@@ -1,0 +1,32 @@
+[
+  {
+    "id": "T1_normal",
+    "result": "PASS",
+    "reasons": ""
+  },
+  {
+    "id": "T2_normal",
+    "result": "PASS",
+    "reasons": ""
+  },
+  {
+    "id": "T3_ambiguous",
+    "result": "FAIL",
+    "reasons": "status 'error' != 'needs_clarification'; none of ['?'] found"
+  },
+  {
+    "id": "T4_empty",
+    "result": "PASS",
+    "reasons": ""
+  },
+  {
+    "id": "T5_out_of_scope",
+    "result": "PASS",
+    "reasons": ""
+  },
+  {
+    "id": "T6_injection",
+    "result": "FAIL",
+    "reasons": "status 'error' != 'answered'; quiz count 0 != 2; none of ['neuron', 'layer', 'weights', 'network'] found"
+  }
+]

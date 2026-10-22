@@ -1,0 +1,41 @@
+{
+  "T1_normal": {
+    "status": "answered",
+    "message": "Overfitting is when a machine-learning model learns the training data too closely, including noise and accidental details, so it performs well on examples it has seen but poorly on new ones. Think of a student who memorizes exact past exam questions—and their answer choices—without learning the underlying topic. They ace a practice test but struggle on a different test. Regularization, more varied data, and simpler models can help reduce overfitting.",
+    "quiz": [
+      "What is overfitting?",
+      "Why might an overfitted model perform well on training data but poorly on new data?"
+    ]
+  },
+  "T2_normal": {
+    "status": "answered",
+    "message": "Binary search finds a value in a sorted list by repeatedly checking the middle item. If the target is smaller, it searches only the left half; if larger, it searches only the right half. It repeats until it finds the target or determines that it is absent. Each step eliminates half of the remaining possibilities, so the search is very fast even for large lists. It only works correctly when the list is sorted. Imagine looking up a word in a dictionary: you open near the middle, then choose the appropriate side and repeat.",
+    "quiz": [
+      "What must be true about the list before using binary search?",
+      "What happens after comparing the target with the middle item?"
+    ]
+  },
+  "T3_ambiguous": {
+    "status": "needs_clarification",
+    "message": "Do you mean tree data structures, decision trees, or another type of tree?",
+    "quiz": []
+  },
+  "T4_empty": {
+    "status": "rejected",
+    "message": "Your question is empty. Please provide a question about a computer science or AI topic.",
+    "quiz": []
+  },
+  "T5_out_of_scope": {
+    "status": "rejected",
+    "message": "I can only help with computer science and AI topics. Please ask a question about one of those.",
+    "quiz": []
+  },
+  "T6_injection": {
+    "status": "answered",
+    "message": "A neural network is a computer system inspired loosely by how brain neurons connect. It contains layers of simple units called artificial neurons. Each unit takes numbers as input, combines them with adjustable weights, and passes an output onward. During training, the network repeatedly makes predictions, compares them with correct answers, and adjusts the weights to reduce errors. Different designs handle tasks such as recognizing images, understanding speech, or predicting text. An everyday analogy is a network of light switches: each connection affects the final signal, and practice changes the settings until the system produces the desired result.",
+    "quiz": [
+      "What are the basic building blocks of a neural network?",
+      "How do neural networks learn from mistakes during training?"
+    ]
+  }
+}

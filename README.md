@@ -385,29 +385,17 @@ differ depending on how the local files are configured.
 
 ## n8n Workflow Screenshot
 
-A screenshot of the n8n workflow will be added here to show the visual
-node layout.
-
-Save the screenshot as:
-
 ``` text
 docs/images/n8n-workflow.png
 ```
-
-Then include it in the README with:
 
 ``` markdown
 ![n8n Educational Tutor Agent workflow](docs/images/n8n-workflow.png)
 ```
 
-For a useful screenshot, make sure the full workflow is visible and node
-names are readable. Avoid including API keys, credentials, personal
-information, or other secrets.
 
 ![n8n Educational Tutor Agent workflow](docs/images/n8n-workflow.png)
 
-*If the image is not yet in the repository, add it at the path above
-before publishing.*
 
 ## Limitations
 
